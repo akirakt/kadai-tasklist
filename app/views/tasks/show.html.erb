@@ -3,9 +3,11 @@
 のタスク詳細ページ
 </h1>
 
-<P>
+<P>タスク：
 <%= @task.content %>
-
+</P>
+<P>進捗：
+<%= @task.status%>
 </P>
 
 <%= link_to '一覧に戻る', tasks_path %>
